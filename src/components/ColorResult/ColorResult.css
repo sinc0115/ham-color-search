@@ -1,0 +1,11 @@
+/* COLOR RESULT */
+.color-result {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+
+.color-result h2 {
+    align-self: center;
+    color: white;
+}
