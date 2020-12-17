@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+
+/* **********************
+* GENERAL APP STYLES
+********************** */
+
 /* BODY */
 body {
   height: 100%;
@@ -55,5 +60,60 @@ body {
 /* CONTAINER */
 .container {
   height: 100vh;
-  width: 80vw;
+  width: 100vw;
+  text-align: center;
+}
+
+
+/* **********************
+* SEARCH PAGE
+********************** */
+
+/* HEADER */
+h1 {
+	font-size: 4rem !important;
+	margin-bottom: 2rem !important;
+}
+
+/* SEARCH CONTAINER */
+.search-container {
+	width: 60vw;
+	margin: 20vh auto 0 auto;
+}
+
+form {
+	margin-top: 2rem;
+	display:flex; 
+	flex-direction:row; 
+	justify-content:center;
+}
+
+form button {
+	margin-left: 2rem !important;
+}
+
+
+/* **********************
+* RESULT PAGE
+********************** */
+.color-result {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	height: 100vh;
+	color: white !important;
+}
+
+.color-result-text {
+	padding: 2rem;
+	background-color: rgba(0, 0, 0, 0.2);
+	background-blend-mode: difference;
+}
+
+.color-result button {
+	max-height: 2.5rem;
+	position: absolute;
+	bottom: 2rem;
+	right: 2rem;
 }
